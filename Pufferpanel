@@ -1,0 +1,5 @@
+curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
+sudo apt-get install pufferpanel
+sudo systemctl enable pufferpanel
+sudo pufferpanel user add --email foxytoux@gmail.com --name foxytoux --password Fox21200 --admin
+sudo systemctl enable --now pufferpanel
